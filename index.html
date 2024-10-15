@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Rating state start -->
+<section class="section-1">
+  <div class="rating-section">
+  <div class="star"><img src="images/icon-star.svg" alt="star-icon"></div>
+  <h3>How did we do?</h3>
+
+ <span> Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</span>
+  <div class="ratings">
+<div class="rating-div">1</div>
+<div class="rating-div">2</div>
+<div class="rating-div">3</div>
+<div class="rating-div">4</div>
+<div class="rating-div">5</div>
+  </div>
+<button id="submit">
+  SUBMIT
+</button>
+  </div>
+</section>
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+<section class="feedback">
+  <div class="thanku-feedback">
+    <div class="logo">
+      <img src="images/illustration-thank-you.svg" alt="thanku-feedback">
+    </div>
+ <div class="rating-num">You selected <span class="no-of-rating"></span> out of 5</div> 
+
+ <h3>Thankyou!</h3>
+
+  <span id="para-feed">We appreciate you taking the time to give a rating. If you ever need more support, 
+  don’t hesitate to get in touch!</span>
+  </div>
+</section>
+  <!-- Thank you state end -->
+
+  
+ <script src="ratingpage.js"></script>
+</body>
+</html>

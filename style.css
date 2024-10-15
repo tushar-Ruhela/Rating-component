@@ -1,0 +1,103 @@
+body{
+    background-color:  hsl(216, 12%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+h3{
+    color: white;
+}
+.rating-section{
+    
+    background-color: hsl(213, 19%, 18%);
+    height:18em;
+    width:18em;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    padding: 15px;
+    margin-top: 100px;
+    
+}
+span{
+    color:  hsl(217, 12%, 63%);
+}
+.star{
+    height: 40px;
+    width: 40px;
+    background-color: hsl(213, 18%, 22%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ 
+}
+
+.rating-div{
+    height: 40px;
+    width: 40px;
+    color:  hsl(217, 12%, 63%);
+    background-color: hsl(210, 10%, 24%);
+    border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.ratings{
+    display: flex;
+    flex-direction: row;
+gap: 20px;
+
+}
+.rating-div:hover{
+    background-color:white;
+    color: black;
+}
+#submit{
+    background-color: hsl(25, 97%, 53%);
+    border:none;
+    height: 30px;
+    width: 20em;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+/* this section for a thanku feedback of rating */
+.feedback{
+    display: none;
+}
+.thanku-feedback{
+    height: 20em;
+    width: 18em;
+    background-color:hsl(213, 19%, 18%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 100px;
+}
+.rating-num{
+    height: 2em;
+    width: 15em;
+    background-color:hsl(218, 12%, 13%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#para-feed{
+    text-align: center;
+}
+.no-of-rating{
+margin-left: 2px;
+margin-right: 2px;
+    color: hsl(25, 97%, 53%);
+}
